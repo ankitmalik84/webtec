@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.h{
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    background: #eff4fd;
+    position: relative;
+
+}
+.navbar{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width: auto;
+}
+
+section{
+    width:100%;
+    height:100vh;
+}
+section .wave{
+    position: absolute;
+    width:100%;
+    height:143px;
+    bottom:0;
+    left:0;
+     background: url(wave.png); 
+    animation: animate 10% linear infinite;
+}
+.logo{
+    border: 0.5px solid ;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-radius: 20px;
+    height: 45px;
+}
+.welcome{
+    margin-left: -36%;
+    font-size: 33px;
+    margin-top: 1%;
+}
+nav{
+    display: flex;
+    width:84%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.d{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.d h1{
+    font-size: 50px;
+    color: red;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+.d p{
+    color:green;
+    line-height: 22px;
+}
+#change{
+    padding: 4px 2px;
+    text-decoration: none;
+    color: seashell;
+    background-color: rgba(35, 22, 214, 0.76);
+    border-radius: 5px;
+}
+#change:hover{
+    padding: 5px 3px;
+    margin: 6px 1px;
+}
+
+#button{
+    margin: 5px 1px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right:100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+
+.images:hover .shape{
+    bottom:40px;
+}
+.images:hover .boy{
+    left:55%;
+}
+.social{
+    margin-left:9%;
+    margin-top: 100px;
+}
+.social a{
+    font-size: 30px;
+    color: black;
+    margin-right: 20px;
+}
+.social a:hover{
+    color:orange;
+}
