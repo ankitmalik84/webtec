@@ -9,5 +9,5 @@ Languages = ["C", "C++", "Python", "HTML", "CSS"]
 ```
 <div align=center>
   
-[![coding speed x 1000](/images/187495.gif)](https://github.com/ankitmalik84)
+[![coding speed x 1000](/images/187495.gif)](https://github.com/ankitmalik84/webtec)
 </div>
